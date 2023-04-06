@@ -1,74 +1,70 @@
-React PDF Invoicing Application
-This is a React application that generates PDF invoices with a signature feature. The application allows users to enter invoice details, upload or draw their signature, and download the invoice as a PDF file.
+# Getting Started with Create React App
 
-Getting Started
-Prerequisites
-Node.js (version 12 or higher)
-npm or yarn package manager
-Installation
-Clone the repository to your local machine using the following command:
-bash
-Copy code
-git clone https://github.com/username/react-pdf-invoicing-app.git
-Change into the project directory:
-bash
-Copy code
-cd react-pdf-invoicing-app
-Install the required dependencies:
-bash
-Copy code
-npm install
-or
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-bash
-Copy code
-yarn install
-Usage
-To start the application, run the following command in the project directory:
+## Available Scripts
 
-bash
-Copy code
-npm start
-or
+In the project directory, you can run:
 
-bash
-Copy code
-yarn start
-This will start the development server and launch the application in your default web browser. You can now generate PDF invoices with a signature feature by entering invoice details, uploading or drawing your signature, and downloading the invoice as a PDF file.
+### `npm start`
 
-Building the Application
-To build the application for production, run the following command in the project directory:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-bash
-Copy code
-npm run build
-or
-bash
-Copy code
-yarn build
-This will create an optimized build of the application in the build directory.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Testing
-To run tests, use the following command:
+### `npm test`
 
-bash
-Copy code
-npm run test
-or
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-bash
-Copy code
-yarn test
-Libraries Used
-This application uses the following libraries:
+### `npm run build`
 
-React
-pdfmake
-react-signature-canvas
-react-router-dom
-react-icons
-Contributing
-Contributions are always welcome! If you'd like to contribute to this project, please create a pull request with your proposed changes.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
